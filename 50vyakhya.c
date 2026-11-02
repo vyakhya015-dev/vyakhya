@@ -4,7 +4,7 @@
 
 int  main()
 {
-    int i, j;
+    int i, j, k;
 
     for(i = 5; i >= 1; i--)
     {
@@ -12,9 +12,9 @@ int  main()
         {
             printf(" ");
         }
-        for(j = i; j <= 5; j++)
+        for(k = i; k <= 5; k++)
         {
-            printf("%d", j);
+            printf("%d", k);
         }
 
         printf("\n");
